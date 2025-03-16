@@ -1,0 +1,35 @@
+.fg{
+  display: flex;
+  justify-content: space-between;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: yellow;
+  background-image: url(https://media.istockphoto.com/id/1348235111/photo/innovation-and-new-ideas-lightbulb-concept-with-question-mark.jpg?s=612x612&w=0&k=20&c=i0g5Kf7jJidMSLSgorxhyfWzJwBOpn40v0TBOLLPSUc=);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 350px;
+}
+.f:hover{
+  color: lightgreen;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example{
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}
+.g{
+  background-color: deepskyblue;
+}
+.g:hover{
+  background-color: lightblue;
+}
