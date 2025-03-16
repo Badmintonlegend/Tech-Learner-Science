@@ -33,3 +33,7 @@ body{
 .g:hover{
   background-color: lightblue;
 }
+.bg{
+  text-decoration: none;
+  color: yellow;
+}
